@@ -1,0 +1,77 @@
+.fungus
+  padding: 0 15px 50px;
+  &__wrap
+    text-align: center
+  &__title
+    font-size: calc(25px + 23 * ((100vw - 320px) / (1920 - 320)))
+    line-height: calc(36px + 12 * ((100vw - 320px) / (1920 - 320)))
+    color: $dark
+    margin-top: 15px
+    margin-bottom: 37px
+  &__desc
+    font-size: 24px
+    font-weight: 700
+    line-height: 28px
+    margin-bottom: 50px
+    color: $brown
+  &__main
+    display: flex
+    justify-content: space-between
+    
+    margin-bottom: 67px
+    
+  &__item
+    display: flex
+    align-items: center
+  &__danger-text
+    font-size: 22px
+    font-weight: 500
+    line-height: 26px
+    width: 138px
+    height: 99px
+    color: $black
+    margin-left: 20px
+  &__text
+    max-width: 305px
+    font-size: 18px
+    line-height: 28px
+    color: $dangertext
+  &__statistics
+    position: relative
+    border: 2px solid #f4d3bb
+    font-size: 22px
+    line-height: 28px
+    color: $dangertext
+    text-align: center
+    padding: 41px 90px 41px
+  &__statistics-img
+    position: absolute
+    left: 42%
+    top: -18px
+    background-color: $white
+    padding: 0 5%
+  &__img
+    position: relative
+    &::before
+      content: ''
+      width: 179px
+      height: 120px
+      position: absolute
+      background: url(../img/danger-circle.png) no-repeat center/cover
+      top: -18px
+      left: -19px
+.fungus-img
+  margin-top: 90px
+.danger-number
+  position: absolute
+  right: 1px
+  top: -6px
+.statistics--big
+  color: $black
+  font-weight: 500
+.line
+  margin: 23px 0 12px
+  width: 50px
+  height: 3px
+  background-color: #becbd8
+

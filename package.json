@@ -1,0 +1,29 @@
+{
+  "name": "-gulp-setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovgreba/-gulp-setting.git"
+  },
+  "author": "Vladimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vovgreba/-gulp-setting/issues"
+  },
+  "homepage": "https://github.com/vovgreba/-gulp-setting#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "rename": "^1.0.4"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

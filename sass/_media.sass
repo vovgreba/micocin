@@ -1,0 +1,126 @@
+@media screen and (max-width: 1435px)
+  .header-main
+    padding-right: 30px
+    &::before 
+      left: 21%
+    &::after
+      top: 84%
+      left: 28%
+    &__desc 
+      max-width: 350px
+    &__product-pills 
+      left: 1%
+      top: 70%
+    &__product
+      &::before 
+        top: 65%
+        left: 20%
+      &::after
+        top: 83%
+        left: 28%
+  .product-pills
+    max-width: 75%
+@media screen and (max-width: 1200px)
+  .header-top
+    justify-content: center
+  .header-main
+    padding-right: 0
+    justify-content: center
+    flex-wrap: wrap
+    &::after
+      top: 73%
+      left: 56%
+    &::before
+      left: 48%
+    &__product
+      display: flex
+      order: 2
+      margin: 50px 0 
+    &__product-box
+      display: none
+    &__product-pills
+      position: relative
+      display: flex
+      justify-content: center
+      justify-content: center
+      border: 5px solid $border
+      border-radius: 15px
+      left: 0
+  .fungus-img 
+    margin-top: 0
+
+@media screen and (max-width: 1105px)
+  .fungus
+    &__main
+      justify-content: center
+      flex-wrap: wrap
+      margin-bottom: 30px
+      &-influence
+        display: flex
+        flex-direction: column
+        align-items: center
+        flex-basis: 50%
+        margin-bottom: 30px
+@media screen and (max-width: 978px)
+  .header-top
+    flex-wrap: wrap
+  .logo
+    justify-content: center
+    width: 100%
+    margin-right: 0
+@media screen and (max-width: 768px)
+  .header
+    background-image: none
+  .header-main
+    flex-direction: column
+    align-items: center
+    &:before, &:after
+      display: none
+    &__product-pills
+      display: none
+    &__desc
+      display: flex
+      max-width: 100%
+      margin-right: 0
+    &__text
+      margin-left: calc(65px + 80 * ((100vw - 320px) / (768 - 320)))
+      &:before
+        left: -21%
+        top: 31%
+  .fungus
+    &__main
+      flex-direction: column
+      align-items: center
+      &-influence
+        margin-bottom: 50px
+@media screen and (max-width: 670px)
+  .nav
+    display: none
+  .header-main
+    &__title
+      margin: 10px 0
+      font-size: 44px
+      line-height: 44px
+    &--size
+      font-size: 34px
+      line-height: 38px
+    &__desc
+      flex-direction: column
+      align-items: center
+    &__text
+      max-width: 400px
+      &:before
+        display: none
+  .fungus
+    &__item
+      flex-direction: column
+    &__statistics
+      padding: 35px 20px 25px
+
+    
+  
+
+        
+      
+    
+    
