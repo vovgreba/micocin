@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Repair Design</title>
+  <title>Micocin</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
     rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -15,7 +16,7 @@
   <div class="header">
     <div class="container">
       <div class="header-top">
-        <div class="logo ">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="2000">
           <div class="logo__pic">
             <a href="#"><img src="img/logo.svg" alt="logo"></a>
           </div>
@@ -26,11 +27,11 @@
         <!-- .logo -->
         <nav class="nav header-top__nav">
           <ul class="nav__item">
-            <li>№1 Для избавления
+            <li data-aos="fade-down" data-aos-duration="1000">№1 Для избавления
               от любого типа грибка</li>
-            <li>Рекомендован
+            <li data-aos="fade-down" data-aos-duration="1500">Рекомендован
               дерматологами </li>
-            <li>13000+ довольных
+            <li data-aos="fade-down" data-aos-duration="2000">13000+ довольных
               клиентов за 2018 год
             </li>
           </ul>
@@ -48,24 +49,30 @@
             <img src="img/pills.png" alt="pills" class="product-pills">
           </div>
         </div>
-        <!-- <div class="header-main__product-pills">
-          <img src="img/pills.png" alt="pills" class="product-pills">
-        </div> -->
         <div class="header-main__desc">
           <h1 class="header-main__title">
             Комплексное избавление <br> от грибка — <span class="header-main--size"> <span class="text--red">
                 изнутри</span>&nbsp;и&nbsp;<span class="text--green">снаружи</span></span>
           </h1>
           <div class="header-main__text">
-            <p class="header-main__text--first">Комплекс Микоцин <span class="text--black">устраняет зуд, неприятный
-                запах</span>и возвращает эстетичный
-              вид</p>
-            <p class="header-main__text--second"><span class="text--red text--black">Таблетки</span> Микоцин <span
-                class="text--black"> уничтожают все виды
-                грибка</span> на ногтях и коже</p>
-            <p class="header-main__text--third"><span class="text--green text--black"> Гель</span> Микоцин <span
-                class="text--black"> восстанавливает кожу</span> и
-              создает на ней <span class="text--black">защитный барьер</span></p>
+            <div class="header-main__box header-main__box--first">
+              <img src="img/green-circle.svg" alt="img" class="header-main__circle ">
+              <p class="header-main__text--first">Комплекс Микоцин <span class="text--black">устраняет зуд, неприятный
+                  запах</span>и возвращает эстетичный
+                вид</p>
+            </div>
+            <div class="header-main__box header-main__box--second">
+              <img src="img/green-circle.svg" alt="img" class="header-main__circle ">
+              <p class="header-main__text--second"><span class="text--red text--black">Таблетки</span> Микоцин <span
+                  class="text--black"> уничтожают все виды
+                  грибка</span> на ногтях и коже</p>
+            </div>
+            <div class="header-main__box header-main__box--third">
+              <img src="img/green-circle.svg" alt="img" class="header-main__circle ">
+              <p class="header-main__text--third"><span class="text--green text--black"> Гель</span> Микоцин <span
+                  class="text--black"> восстанавливает кожу</span> и
+                создает на ней <span class="text--black">защитный барьер</span></p>
+            </div>
           </div>
         </div>
         <!--.header-main__desc -->
@@ -73,9 +80,10 @@
           <legend class="form__inscription">
             <div class="form__inscription__delivering">
               <div class="delivering-item-image">
-                <img src="img/track.svg" alt="img" class="delivering-img">
+                <img src="img/track.svg" alt="img" class="delivering-img" data-aos="fade-right"
+                  data-aos-easing="ease-in-out-sine" data-aos-duration="2000">
               </div>
-              <p class="form__inscription__text">Бесплатно</p>
+              <p class="form__inscription__text" data-aos="fade-right" data-aos-duration="3000">Бесплатно</p>
             </div>
           </legend>
           <div class="form__wrap">
@@ -115,21 +123,21 @@
     <!-- .container -->
   </div>
   <!-- .header -->
-  
+
   <section class="fungus secction-fungus">
     <div class="container">
-
       <div class="fungus__wrap">
-        <img src="img/logo.svg" alt="img" class="fungus-img">
+        <img src="img/logo.svg" alt="img" class="fungus-img" data-aos="zoom-in-right" data-aos-duration="3000">
         <h1 class="fungus__title">Грибок – это опасная инфекция</h1>
         <p class="fungus__desc">которая угрожает вам и вашим близким, ведь с каждым днем грибок приводит к:</p>
       </div>
       <div class="fungus__main">
         <div class="fungus__main-influence">
           <div class="fungus__item">
-            <div class="fungus__img">
+            <div class="fungus__img fungus__img--first">
               <img src="img/danger-item1.png" alt="denger" class="danger-img">
-              <img src="img/danger-number1.svg" alt="number" class="danger-number">
+              <img src="img/danger-number.svg" alt="number" class="danger-number" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-easing="ease-out-sine">
             </div>
             <p class="fungus__danger-text">Сложным формам аллергии</p>
           </div>
@@ -141,9 +149,10 @@
         <!-- .fungus__main-influence -->
         <div class="fungus__main-influence">
           <div class="fungus__item">
-            <div class="fungus__img">
+            <div class="fungus__img fungus__img--second">
               <img src="img/danger-item2.png" alt="denger" class="danger-img">
-              <img src="img/danger-number2.svg" alt="number" class="danger-number">
+              <img src="img/danger-number.svg" alt="number" class="danger-number" data-aos="zoom-in"
+                data-aos-duration="2000" data-aos-easing="ease-out-sine">
             </div>
             <p class="fungus__danger-text">Потере ногтя и ампутации пальца</p>
           </div>
@@ -155,9 +164,10 @@
         <!-- .fungus__main-influence -->
         <div class="fungus__main-influence">
           <div class="fungus__item">
-            <div class="fungus__img">
+            <div class="fungus__img fungus__img--third">
               <img src="img/danger-item3.png" alt="denger" class="danger-img">
-              <img src="img/danger-number3.svg" alt="number" class="danger-number">
+              <img src="img/danger-number.svg" alt="number" class="danger-number" data-aos="zoom-in"
+                data-aos-duration="3000" data-aos-easing="ease-out-sine">
             </div>
             <p class="fungus__danger-text">Тяжелому поражению внутренних органов</p>
           </div>
@@ -179,6 +189,7 @@
     </div>
     <!-- .container -->
   </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/index.js"></script>
 </body>
 

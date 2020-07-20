@@ -9,9 +9,9 @@
     margin-top: 15px
     margin-bottom: 37px
   &__desc
-    font-size: 24px
+    font-size: calc(18px + 6 * ((100vw - 320px) / (1920 - 320)))
     font-weight: 700
-    line-height: 28px
+    line-height: calc(24px + 4 * ((100vw - 320px) / (1920 - 320)))
     margin-bottom: 50px
     color: $brown
   &__main
@@ -29,7 +29,7 @@
     line-height: 26px
     width: 138px
     height: 99px
-    color: $black
+    color: #000
     margin-left: 20px
   &__text
     max-width: 305px
@@ -39,16 +39,16 @@
   &__statistics
     position: relative
     border: 2px solid #f4d3bb
-    font-size: 22px
-    line-height: 28px
+    font-size: calc(16px + 8 * ((100vw - 320px) / (1920 - 320)))
+    line-height: calc(24px + 4 * ((100vw - 320px) / (1920 - 320)))
     color: $dangertext
     text-align: center
     padding: 41px 90px 41px
   &__statistics-img
     position: absolute
-    left: 42%
+    left: 40%
     top: -18px
-    background-color: $white
+    background-color: #fff
     padding: 0 5%
   &__img
     position: relative
@@ -60,6 +60,26 @@
       background: url(../img/danger-circle.png) no-repeat center/cover
       top: -18px
       left: -19px
+    &::after
+      content: ''
+      position: absolute
+      font-family: Roboto
+      color: #fff
+      font-size: 30px
+      font-weight: 400
+      line-height: 28px
+      top: 3%
+      right: 10%
+    &--first
+      &::after
+        content: '1'
+    &--second
+      &::after
+        content: '2'
+    &--third
+      &::after
+        content: '3'
+        
 .fungus-img
   margin-top: 90px
 .danger-number
@@ -67,7 +87,7 @@
   right: 1px
   top: -6px
 .statistics--big
-  color: $black
+  color: #000
   font-weight: 500
 .line
   margin: 23px 0 12px

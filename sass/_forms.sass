@@ -1,0 +1,151 @@
+.form
+  max-width: 266px
+  margin-top: 32px
+  margin-bottom: 10px
+  border: 5px solid $border
+  border-radius: 15px
+  &__inscription
+    margin: auto
+    &__delivering
+      display: flex
+      background-color: #f3f9ff
+      border: 7px solid #a8ca3f
+      border-top: 0px solid #a8ca3f
+      border-radius: 0px 0px 15px 15px
+      text-align: center
+      padding: 0px 10px 10px
+      position: relative
+      top: -5px
+    &__text
+      margin: 0
+      margin-left: 10px
+  &__wrap
+    margin: 12px 18px 0
+  &__title
+    position: relative
+    text-align: center
+    max-width: 170px
+    margin: auto 
+    font-size: 20px
+    line-height: 20px
+  &__price
+    position: relative
+    display: flex
+    justify-content: space-around
+    font-size: 14px
+    line-height: 24px
+    text-align: center
+    &::after
+      content: ''
+      width: 49px
+      height: 233px
+      position: absolute
+      background: url(../img/arrow_forma.svg) no-repeat center/cover
+      right: -50px
+      top: 55px
+    &-old
+      color: $grey
+    &-new
+      font-weight: 500
+      color: #000
+    &--light
+      position: relative
+      display: block
+      padding: 10px 15px
+      font-weight: 300
+      font-size: 34px
+      color: rgba(#000, 0.8)
+      &::after
+        content: ''
+        width: 88px
+        height: 23px
+        position: absolute
+        background: url(../img/lines.svg) no-repeat center/cover
+        left: 9%
+    &--big
+      display: block
+      padding: 10px 14px
+      font-weight: 400
+      font-size: 34px
+      border-radius: 5px
+      background-color: $red
+      background-image: linear-gradient(to right, #ffbc02 0%, #ffce02 100%)
+  &__btn
+    display: inline-block
+    font-size: 28px
+    line-height: 22px
+    font-weight: 700
+    background-color: $colorbuton
+    padding: 5px
+    border-radius: 44px
+    margin: 3px 0 17px
+  &__input-group
+    position: relative
+    margin-bottom: 10px
+    &::before
+      content: ''
+      width: 19px
+      height: 23px
+      position: absolute
+      background: url(../img/name.svg) no-repeat center/cover
+      right: 182px
+      top: 18px
+    &--tell
+      &::before
+        content: ''
+        width: 21px
+        height: 24px
+        position: absolute
+        background: url(../img/tell.svg) no-repeat center/cover
+  &__input
+    padding: 21px 0 26px 40px 
+  &__packets
+    text-align: center
+    font-size: 18px
+    line-height: 18px
+    margin: 1px 10px 15px
+  &__security
+    position: relative
+    text-align: center
+    color: $grey
+    font-size: 14px
+    line-height: 16.52px
+    background-color: $inputcolor
+    padding: 16px 0  13px 32px
+    border-bottom-right-radius: 7px
+    border-bottom-left-radius: 7px
+    &::before
+      content: ''
+      width: 19px
+      height: 20px
+      position: absolute
+      background: url(../img/security.svg) no-repeat center/cover
+      left: 29px
+      bottom: 13px
+.button
+  border-radius: 27px
+  border: 2px solid #ffdb4e
+  background-color: transparent
+  text-align: center
+  padding: 12px 39px 12px 41px
+  font-size: 28px
+  line-height: .6
+  background-color: transparent 
+  cursor: pointer
+  outline: none
+  &:hover, &:focus
+    border-color: orange
+    box-shadow: 0px 5px 15px rgba(#000, 0.3)
+    transition: box-shadow 0.5s
+.input
+  font-size: 16px
+  font-weight: 400
+  line-height: 18px
+  box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.04)
+  background-color: #eef2f7
+  border-radius: 32px
+  border: none
+  color: $grey 
+  outline: none
+  text-indent: 15px
+  width: 100%
