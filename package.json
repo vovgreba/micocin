@@ -24,6 +24,6 @@
     "rename": "^1.0.4"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   }
 }
